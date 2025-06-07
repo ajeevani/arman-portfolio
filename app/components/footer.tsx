@@ -41,8 +41,6 @@ export default function Footer() {
           >
             <div className="flex items-center justify-center space-x-2 text-zinc-400 text-sm">
               <span>Made with</span>
-              <Heart className="w-4 h-4 text-red-400 animate-pulse" />
-              <span>and</span>
               <Coffee className="w-4 h-4 text-amber-400" />
               <span>by Arman</span>
             </div>
