@@ -1,4 +1,6 @@
 node_modules/
 .next/
+.env
 .env.local
-.vercel
+package-lock.json
+prisma/dev.db
