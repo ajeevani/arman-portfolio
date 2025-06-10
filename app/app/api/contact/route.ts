@@ -25,6 +25,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Check if database is available
+    try {
+      await prisma.$connect();
+    } catch (dbError) {
+      console.error('Database connection error:', dbError);
+      return NextResponse.json(
+        { error: 'Database connection failed. Please try again later.' },
+        { status: 503 }
+      );
+    }
+
     // Save to database
     const contact = await prisma.contact.create({
       data: {
@@ -46,9 +57,33 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error('Contact form error:', error);
+    
+    // Handle specific Prisma errors
+    if (error instanceof Error) {
+      if (error.message.includes('connect')) {
+        return NextResponse.json(
+          { error: 'Database connection failed. Please try again later.' },
+          { status: 503 }
+        );
+      }
+      if (error.message.includes('unique constraint')) {
+        return NextResponse.json(
+          { error: 'A record with this information already exists.' },
+          { status: 409 }
+        );
+      }
+    }
+
     return NextResponse.json(
-      { error: 'Internal server error', details: error instanceof Error ? error.message : 'Unknown error occurred' },
+      { 
+        error: 'Internal server error', 
+        details: process.env.NODE_ENV === 'development' 
+          ? (error instanceof Error ? error.message : 'Unknown error occurred')
+          : 'Something went wrong'
+      },
       { status: 500 }
     );
+  } finally {
+    await prisma.$disconnect();
   }
 }
