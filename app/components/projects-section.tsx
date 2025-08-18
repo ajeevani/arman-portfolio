@@ -24,7 +24,7 @@ export default function ProjectsSection() {
         'Smart categorization',
         'Progress analytics'
       ],
-      github: 'https://github.com/armanjeevani/ai-task-manager',
+      github: 'https://github.com/ajeevani/TaskMind',
       demo: 'https://ai-task-manager-demo.vercel.app',
       status: 'Completed'
     },
