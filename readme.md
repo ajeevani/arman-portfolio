@@ -1,3 +1,3 @@
-Link to Page
+Link
 
 armanj.vercel.app
