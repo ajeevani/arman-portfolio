@@ -260,7 +260,7 @@ export default function ResumeSection() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-zinc-300">Years of Experience</span>
-                  <span className="text-cyber-cyan font-mono font-bold">3+</span>
+                  <span className="text-cyber-cyan font-mono font-bold">5+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-zinc-300">Projects Completed</span>
@@ -272,7 +272,7 @@ export default function ResumeSection() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-zinc-300">Certifications</span>
-                  <span className="text-cyber-cyan font-mono font-bold">4</span>
+                  <span className="text-cyber-cyan font-mono font-bold">6</span>
                 </div>
               </div>
             </motion.div>
@@ -290,7 +290,7 @@ export default function ResumeSection() {
                   <span className="text-cyber-cyan">Email:</span> arman.jeevani@email.com
                 </div>
                 <div className="text-zinc-300">
-                  <span className="text-cyber-cyan">Location:</span> Available for Remote Work
+                  <span className="text-cyber-cyan">Location:</span> Toronto / Remote
                 </div>
                 <div className="text-zinc-300">
                   <span className="text-cyber-cyan">Status:</span> Open to Opportunities
