@@ -48,7 +48,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Available for Remote Work',
+      value: 'Toronto / Remote',
       action: null
     },
     {
