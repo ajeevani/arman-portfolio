@@ -70,7 +70,6 @@ export default function ResumeSection() {
     'Oracle OCI Foundations Associate',
     'Oracle APEX Developer Professional',
     'Oracle OCI Generative AI Professional',
-    'CS50x Intro to Computer Science',
     'CS50w Web Development with Python and Javascipt',
     'Programiz C, C++ and Python'
   ]
