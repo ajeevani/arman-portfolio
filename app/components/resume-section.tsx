@@ -66,6 +66,7 @@ export default function ResumeSection() {
   ]
 
   const certifications = [
+    'IBM Generative AI or Software Developers'
     'Oracle OCI Foundations Associate',
     'Oracle APEX Developer Professional',
     'Oracle OCI Generative AI Professional',
