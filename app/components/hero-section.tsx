@@ -8,7 +8,7 @@ export default function HeroSection() {
   const skills = [
     { icon: Code, label: 'Web Development', delay: 0.2 },
     { icon: AppWindow, label: 'Software Development', delay: 0.4 },
-    { icon: Brain, label: 'AI Integration', delay: 0.6 },
+    { icon: Brain, label: 'AI/ML', delay: 0.6 },
   ]
   const skillsRef = useRef(null)
   const inView = useInView(skillsRef, { once: true })
