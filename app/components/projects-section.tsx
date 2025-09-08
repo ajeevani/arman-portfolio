@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { ExternalLink, Github, Database, Brain, Globe, Zap, CarFront, Chess } from 'lucide-react'
+import { ExternalLink, Github, Database, Brain, Globe, Zap, CarFront, ToyBrick } from 'lucide-react'
 
 export default function ProjectsSection() {
   const [ref, inView] = useInView({
@@ -69,7 +69,7 @@ export default function ProjectsSection() {
       description: 'Professional chess application with AI-powered skill assessment, adaptive difficulty, and real-time coaching. Features neural networks for player analysis and personalized training recommendations.',
       technologies: ['React', 'TypeScript', 'Node.js', 'Python', 'TensorFlow', 'MongoDB', 'Socket.io', 'FastAPI'],
       category: 'AI/ML',
-      icon: Chess, // or ChessKnight
+      icon: ToyBrick, // or ChessKnight
       features: [
         'Neural network skill assessment (1200-2400 rating prediction)',
         'Adaptive AI difficulty (maintains 50% win rate)',
