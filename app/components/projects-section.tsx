@@ -16,7 +16,7 @@ export default function ProjectsSection() {
       title: 'AI-Powered Task Manager',
       description: 'Intelligent task management application with natural language processing for smart task categorization and priority suggestions.',
       technologies: ['React', 'Node.js', 'OpenAI API', 'PostgreSQL', 'Prisma'],
-      category: 'AI Integration',
+      category: 'AI/ML',
       icon: Brain,
       features: [
         'Natural language task input',
@@ -29,20 +29,24 @@ export default function ProjectsSection() {
       status: 'Completed'
     },
     {
-      title: 'Real-time Weather API Dashboard',
-      description: 'Comprehensive weather dashboard consuming multiple APIs with real-time updates, forecasts, and interactive maps.',
-      technologies: ['Next.js', 'TypeScript', 'Chart.js', 'Weather APIs', 'Tailwind CSS'],
-      category: 'API Development',
-      icon: Globe,
+      title: 'Advanced Formula 1 Historical Race Simulator',
+      description: 'A production-grade ML-powered Formula 1 simulation platform that enables users to create dream races by selecting any driver from F1 history (1950-2024), pairing them with any car from any era, and simulating realistic race outcomes on various tracks with dynamic weather conditions. Uses ensemble machine learning models trained on comprehensive telemetry data, historical performance metrics, and advanced feature engineering to predict lap times, race positions, pit strategies, and overtaking probabilities.',
+      technologies: ['Python', 'FastF1 API', 'Ergast API', 'LightGBM', 'XGBoost', 'Scikit-learn', 'Pandas', 'NumPy', 'AsyncIO', 'DuckDB', 'PostgreSQL', 'Google Cloud Platform', 'Docker', 'Rich CLI', 'Streamlit'],
+      category: 'AI/ML',
+      icon: RaceCar,
       features: [
-        'Multi-source weather data',
-        'Interactive weather maps',
-        'Historical data analysis',
-        'Mobile-responsive design'
+        'Historical driver performance modeling across 75 years of F1 (1950-2024)',
+        'Cross-era race simulation (e.g., Ayrton Senna in 2023 Red Bull vs. Max Verstappen)',
+        'Multi-source data pipeline ingesting telemetry, weather, and historical race data',
+        'Ensemble ML models with <1500ms lap time prediction accuracy',
+        'Advanced feature engineering with 50+ variables including tyre degradation and track evolution',
+        'Dynamic weather impact modeling and race strategy prediction',
+        'Interactive CLI for custom grid creation and race simulation',
+        'Production-ready deployment with model versioning and error handling'
       ],
-      github: 'https://github.com/armanjeevani/weather-dashboard',
-      demo: 'https://weather-dashboard-demo.vercel.app',
-      status: 'Completed'
+      github: 'https://github.com/armanjeevani/formula1-ml-simulator',
+      demo: 'https://formula1-simulator-demo.vercel.app',
+      status: 'In Process'
     },
     {
       title: 'E-commerce Analytics Platform',
@@ -61,20 +65,22 @@ export default function ProjectsSection() {
       status: 'In Progress'
     },
     {
-      title: 'Smart Code Review Assistant',
-      description: 'AI-powered code review tool that analyzes code quality, suggests improvements, and detects potential bugs.',
-      technologies: ['Python', 'FastAPI', 'OpenAI API', 'React', 'Docker'],
-      category: 'AI Integration',
-      icon: Zap,
+      title: 'Chess AI with Machine Learning Coach',
+      description: 'Professional chess application with AI-powered skill assessment, adaptive difficulty, and real-time coaching. Features neural networks for player analysis and personalized training recommendations.',
+      technologies: ['React', 'TypeScript', 'Node.js', 'Python', 'TensorFlow', 'MongoDB', 'Socket.io', 'FastAPI'],
+      category: 'AI/ML',
+      icon: Brain, // or ChessKnight
       features: [
-        'Automated code analysis',
-        'Bug detection',
-        'Performance suggestions',
-        'Integration with Git'
+        'Neural network skill assessment (1200-2400 rating prediction)',
+        'Adaptive AI difficulty (maintains 50% win rate)',
+        'Real-time move analysis (brilliant/good/mistake/blunder)',
+        'Personalized coaching with tactical training',
+        'Performance analytics with ML insights',
+        'Professional Chess.com-quality UI/UX'
       ],
-      github: 'https://github.com/armanjeevani/code-review-assistant',
-      demo: 'https://code-review-assistant-demo.vercel.app',
-      status: 'Completed'
+      github: 'https://github.com/yourusername/chess-ai-ml',
+      demo: 'https://chess-ai-pro.vercel.app',
+      status: 'In Process'
     }
   ]
 
