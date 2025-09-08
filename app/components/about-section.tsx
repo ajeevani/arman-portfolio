@@ -148,7 +148,7 @@ export default function AboutSection() {
               { skill: 'Frontend Development', level: 85 },
               { skill: 'Backend Development', level: 90 },
               { skill: 'Database Design', level: 80 },
-              { skill: 'AI Integration', level: 75 },
+              { skill: 'AI/ML Integration', level: 75 },
             ].map((item, index) => (
               <div key={item.skill} className="space-y-2">
                 <div className="flex justify-between text-sm font-mono">
