@@ -82,7 +82,7 @@ export default function ProjectsSection() {
     }
   ]
 
-  const categories = ['All', 'AI Integration', 'API Development', 'Full-Stack']
+  const categories = ['All', 'AI/ML', 'API Development', 'Full-Stack']
   const [selectedCategory, setSelectedCategory] = React.useState('All')
 
   const filteredProjects = selectedCategory === 'All' 
