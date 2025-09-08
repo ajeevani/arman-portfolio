@@ -29,20 +29,18 @@ export default function ProjectsSection() {
       status: 'Completed'
     },
     {
-      title: 'Advanced Formula 1 Historical Race Simulator',
-      description: 'A production-grade ML-powered Formula 1 simulation platform that enables users to create dream races by selecting any driver from F1 history (1950-2024), pairing them with any car from any era, and simulating realistic race outcomes on various tracks with dynamic weather conditions. Uses ensemble machine learning models trained on comprehensive telemetry data, historical performance metrics, and advanced feature engineering to predict lap times, race positions, pit strategies, and overtaking probabilities.',
-      technologies: ['Python', 'FastF1 API', 'Ergast API', 'LightGBM', 'XGBoost', 'Scikit-learn', 'Pandas', 'NumPy', 'AsyncIO', 'DuckDB', 'PostgreSQL', 'Google Cloud Platform', 'Docker', 'Rich CLI', 'Streamlit'],
-      category: 'AI/ML',
+      title: 'F1 Historical Race Simulator',
+      description: 'ML-powered Formula 1 simulator enabling cross-era dream races. Users select any driver (1950-2024) with any car from F1 history to simulate realistic race outcomes using ensemble models trained on comprehensive telemetry and historical performance data.',
+      technologies: ['Python', 'LightGBM', 'XGBoost', 'FastF1 API', 'Pandas', 'Google Cloud', 'Docker', 'Streamlit'],
+      category: 'AI/ML', 'API Development',
       icon: CarFront,
       features: [
-        'Historical driver performance modeling across 75 years of F1 (1950-2024)',
-        'Cross-era race simulation (e.g., Ayrton Senna in 2023 Red Bull vs. Max Verstappen)',
-        'Multi-source data pipeline ingesting telemetry, weather, and historical race data',
+        'Cross-era race simulation (Senna vs. Verstappen with any car/era combination)',
         'Ensemble ML models with <1500ms lap time prediction accuracy',
-        'Advanced feature engineering with 50+ variables including tyre degradation and track evolution',
-        'Dynamic weather impact modeling and race strategy prediction',
+        'Multi-source data pipeline processing 100K+ race records from F1 APIs',
+        'Advanced feature engineering with driver skill evolution and car performance modeling',
         'Interactive CLI for custom grid creation and race simulation',
-        'Production-ready deployment with model versioning and error handling'
+        'Production deployment with model versioning and error handling'
       ],
       github: 'https://github.com/armanjeevani/formula1-ml-simulator',
       demo: 'https://formula1-simulator-demo.vercel.app',
