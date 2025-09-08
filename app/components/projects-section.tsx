@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { ExternalLink, Github, Database, Brain, Globe, Zap } from 'lucide-react'
+import { ExternalLink, Github, Database, Brain, Globe, Zap, CarFront, ChessPawn } from 'lucide-react'
 
 export default function ProjectsSection() {
   const [ref, inView] = useInView({
@@ -33,7 +33,7 @@ export default function ProjectsSection() {
       description: 'A production-grade ML-powered Formula 1 simulation platform that enables users to create dream races by selecting any driver from F1 history (1950-2024), pairing them with any car from any era, and simulating realistic race outcomes on various tracks with dynamic weather conditions. Uses ensemble machine learning models trained on comprehensive telemetry data, historical performance metrics, and advanced feature engineering to predict lap times, race positions, pit strategies, and overtaking probabilities.',
       technologies: ['Python', 'FastF1 API', 'Ergast API', 'LightGBM', 'XGBoost', 'Scikit-learn', 'Pandas', 'NumPy', 'AsyncIO', 'DuckDB', 'PostgreSQL', 'Google Cloud Platform', 'Docker', 'Rich CLI', 'Streamlit'],
       category: 'AI/ML',
-      icon: RaceCar,
+      icon: CarFront,
       features: [
         'Historical driver performance modeling across 75 years of F1 (1950-2024)',
         'Cross-era race simulation (e.g., Ayrton Senna in 2023 Red Bull vs. Max Verstappen)',
@@ -69,7 +69,7 @@ export default function ProjectsSection() {
       description: 'Professional chess application with AI-powered skill assessment, adaptive difficulty, and real-time coaching. Features neural networks for player analysis and personalized training recommendations.',
       technologies: ['React', 'TypeScript', 'Node.js', 'Python', 'TensorFlow', 'MongoDB', 'Socket.io', 'FastAPI'],
       category: 'AI/ML',
-      icon: Brain, // or ChessKnight
+      icon: ChessPawn, // or ChessKnight
       features: [
         'Neural network skill assessment (1200-2400 rating prediction)',
         'Adaptive AI difficulty (maintains 50% win rate)',
