@@ -32,7 +32,7 @@ export default function ProjectsSection() {
       title: 'F1 Historical Race Simulator',
       description: 'ML-powered Formula 1 simulator enabling cross-era dream races. Users select any driver (1950-2024) with any car from F1 history to simulate realistic race outcomes using ensemble models trained on comprehensive telemetry and historical performance data.',
       technologies: ['Python', 'LightGBM', 'XGBoost', 'FastF1 API', 'Pandas', 'Google Cloud', 'Docker', 'Streamlit'],
-      category: 'AI/ML', 'API Development',
+      category: ['AI/ML', 'API Development'],
       icon: CarFront,
       features: [
         'Cross-era race simulation (Senna vs. Verstappen with any car/era combination)',
