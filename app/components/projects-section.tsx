@@ -32,7 +32,7 @@ export default function ProjectsSection() {
       title: 'F1 ML Race Simulator',
       description: 'ML-powered Formula 1 simulator enabling cross-era dream races. Users select any driver (1950-2024) from F1 history with 2025 cars to simulate realistic race outcomes using ensemble models trained on comprehensive telemetry and historical performance data.',
       technologies: ['Python', 'JavaScript', 'LightGBM', 'XGBoost', 'REST APIs', 'Pandas', 'Google Cloud', 'Docker', 'Streamlit', 'Vite', 'WebSocket', 'AsyncIO', 'Scikit-Learn'],
-      category: ['AI/ML', 'API Development'],
+      category: 'AI/ML', 'API Development',
       icon: CarFront,
       features: [
         'Cross-era race simulation (Senna vs. Verstappen with any car/era combination)',
@@ -42,7 +42,7 @@ export default function ProjectsSection() {
         'Interactive CLI for custom grid creation and race simulation',
         'Production deployment with model versioning and error handling'
       ],
-      github: 'https://github.com/armanjeevani/formula1-ml-simulator',
+      github: 'https://github.com/ajeevani/f1-ml-simulator',
       demo: 'https://f1-ml-simulator.vercel.app',
       status: 'Completed'
     },
@@ -66,7 +66,7 @@ export default function ProjectsSection() {
       title: 'Chess AI with Machine Learning Coach',
       description: 'Professional chess application with AI-powered skill assessment, adaptive difficulty, and real-time coaching. Features neural networks for player analysis and personalized training recommendations.',
       technologies: ['React', 'TypeScript', 'Node.js', 'Python', 'TensorFlow', 'MongoDB', 'Socket.io', 'FastAPI'],
-      category: ['AI/ML', 'API Development'],
+      category: 'AI/ML',
       icon: ToyBrick,
       features: [
         'Neural network skill assessment (1200-2400 rating prediction)',
